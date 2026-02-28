@@ -790,3 +790,9 @@ Entries:
       message: Kitsune can now use kitsune emotes.
   id: 97
   time: '2026-02-28T21:34:28.0000000+00:00'
+- author: Raikyr0
+  changes:
+    - type: Add
+      message: Added Nightvision to Shadowkin and Felinids
+  id: 98
+  time: '2026-02-28T22:25:04.0000000+00:00'
