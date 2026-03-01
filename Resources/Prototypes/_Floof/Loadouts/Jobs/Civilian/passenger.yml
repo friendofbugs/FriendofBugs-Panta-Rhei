@@ -130,11 +130,6 @@
     jumpsuit: ClothingUniformSchoolGakuranBlack
 
 - type: loadout
-  id: UniformSchoolgirlRed
-  equipment:
-    jumpsuit: UniformSchoolgirlRed
-
-- type: loadout
   id: UniformSchoolgirlBlack
   equipment:
     jumpsuit: UniformSchoolgirlBlack
@@ -628,6 +623,20 @@
     neck: ClothingNeckNeckerchief
 
 # trinkets
+- type: loadout
+  id: LuxuryPen
+  storage:
+    back:
+    - LuxuryPen
+  groupBy: "writing"
+
+- type: loadout
+  id: Paper
+  storage:
+    back:
+    - Paper
+  groupBy: "writing"
+
 - type: loadout
   id: GuitarInstrument
   storage:
