@@ -78,6 +78,7 @@
   minLimit: 0
   maxLimit: 1
   loadouts:
+  - ClothingHandsGlovesLeather
   - ClothingArmwarmersCoder
   - ClothingArmwarmersBee
   - ClothingArmwarmersRainbow
@@ -102,6 +103,7 @@
   - ClothingShoesBootsJack
   - ClothingShoesBootsCowboyFancy
   - ClothingShoesBootsWork
+  - ClothingShoesBootsWinter
   - ClothingClothWrap
   - ClothingSocksRainbow
   - ClothingSocksAce

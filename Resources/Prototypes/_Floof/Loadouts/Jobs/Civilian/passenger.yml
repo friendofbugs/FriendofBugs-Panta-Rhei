@@ -377,6 +377,11 @@
   equipment:
     shoes: ClothingShoesBootsWork
 
+- type: loadout
+  id: ClothingShoesBootsWinter
+  equipment:
+    shoes: ClothingShoesBootsWinter
+
 # arm warmers
 - type: loadout
   id: ClothingArmwarmersCoder
@@ -437,6 +442,11 @@
   id: ClothingArmwarmersValid
   equipment:
     gloves: ClothingHandsCoderValidWarmers
+
+- type: loadout
+  id: ClothingHandsGlovesLeather
+  equipment:
+    gloves: ClothingHandsGlovesLeather
 
 # backpacks
 - type: loadout
