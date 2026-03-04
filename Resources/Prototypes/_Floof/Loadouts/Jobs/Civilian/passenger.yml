@@ -545,6 +545,24 @@
     outerClothing: ClothingOuterCoatPirate
 
 - type: loadout
+  id: OuterFlannelBlue
+  equipment:
+    outerClothing: ClothingOuterFlannelBlue
+  groupBy: "flannel"
+
+- type: loadout
+  id: OuterFlannelRed
+  equipment:
+    outerClothing: ClothingOuterFlannelRed
+  groupBy: "flannel"
+
+- type: loadout
+  id: OuterFlannelGreen
+  equipment:
+    outerClothing: ClothingOuterFlannelGreen
+  groupBy: "flannel"
+
+- type: loadout
   id: OuterCoatBomber
   equipment:
     outerClothing: ClothingOuterCoatBomber
