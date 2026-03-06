@@ -1093,3 +1093,13 @@ Entries:
         point
   id: 135
   time: '2026-03-06T11:13:02.0000000+00:00'
+- author: Raikyr0
+  changes:
+    - type: Add
+      message: Added DV ciggies and vape to the smokeables loadout.
+    - type: Tweak
+      message: >-
+        Sorts loadout further, sex toys and instruments have their own
+        categories now.
+  id: 136
+  time: '2026-03-06T17:38:11.0000000+00:00'
