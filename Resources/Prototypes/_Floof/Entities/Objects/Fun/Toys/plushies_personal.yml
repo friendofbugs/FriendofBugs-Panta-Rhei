@@ -19,11 +19,28 @@
     state: slime
   - type: UseDelay
     delay: 3.0
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Voice/Slime/slime_squish.ogg
+      params:
+        volume: 1
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voice/Slime/slime_squish.ogg
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/Voice/Slime/slime_squish.ogg
   - type: EmitSoundOnActivate
     sound:
       path: /Audio/Voice/Human/female_sigh.ogg
       params:
         volume: 1
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/_Floof/Voice/Slime/slime_laugh_f1.ogg
+      params:
+        variation: 0.20
+        volume: 4
 
 - type: entity
   parent: PlushieHuman
@@ -191,6 +208,29 @@
     state: slimebartender
   - type: UseDelay
     delay: 1.0
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/_Floof/Voice/Slime/s_pop.ogg
+      params:
+        volume: 2
+        variation: 0.05
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_Floof/Voice/Slime/slime_laugh_f1.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/_Floof/Voice/Slime/s_pop.ogg
+      params:
+        volume: 1
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/_Floof/Voice/Slime/slime_laugh_f1.ogg
+      params:
+        variation: 0.05
+        volume: 4
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/_Floof/Voice/Slime/slime_laugh_f1.ogg
 
 - type: entity
   parent: PlushieHuman
@@ -381,7 +421,7 @@
     sound: *landResomi
   - type: EmitSoundOnActivate
     sound:
-      path: /Audio/_Floof/Voice/Avali/avali_1.ogg
+      path: /Audio/_RMC14/Voice/Avali/avali_laugh.ogg
       params:
         volume: 1
   - type: MeleeWeapon
@@ -534,6 +574,10 @@
     sound: *yap
   - type: EmitSoundOnCollide
     sound: *yap
+  - type: EmitSoundOnLand
+    sound: *yap
+  - type: MeleeWeapon
+    soundHit: *yap
 
 - type: entity
   parent: PlushieHuman
@@ -579,6 +623,28 @@
     state: eldrichcap
   - type: UseDelay
     delay: 3.0
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/_Floof/Voice/Shadowkin/mar.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_Floof/Voice/Slime/slime_scream_m1.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/_Floof/Voice/Shadowkin/mar.ogg
+      params:
+        volume: 2
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/_Floof/Voice/Slime/slime_scream_m1.ogg
+      params:
+        variation: 0.05
+        volume: 4
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/_Floof/Voice/Slime/slime_scream_m1.ogg
 
 - type: entity
   parent: PlushieHuman
@@ -667,6 +733,18 @@
       path: /Audio/Items/Toys/toysqueak1.ogg
       params:
         volume: 2
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_Floof/Voice/Vulpkanin/vulpscream2.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/_Floof/Voice/Vulpkanin/vulpscream2.ogg
+      params:
+        variation: 0.05
+        volume: 4
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/_Floof/Voice/Vulpkanin/vulpscream2.ogg
 
 - type: entity
   parent: PlushieHuman
@@ -722,6 +800,17 @@
       path: /Audio/Effects/metal_break3.ogg
       params:
         volume: 2
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voice/Slime/slime_squish.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Voice/Slime/slime_squish.ogg
+      params:
+        variation: 0.05
+        volume: 4
+  - type: EmitSoundOnCollide
+    sound: /Audio/Voice/Slime/slime_squish.ogg
 
 - type: entity
   parent: PlushieHuman
@@ -1038,6 +1127,16 @@
       params:
         variation: 0.05
         volume: 4
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/_EE/Items/Handling/disk_drop.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/_EE/Items/Handling/disk_drop.ogg
+      params:
+        volume: 2
 
 - type: entity
   parent: BasePlushie
