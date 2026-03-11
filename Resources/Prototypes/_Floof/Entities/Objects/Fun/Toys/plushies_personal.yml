@@ -215,22 +215,17 @@
         volume: 2
         variation: 0.05
   - type: EmitSoundOnLand
-    sound:
-      path: /Audio/_Floof/Voice/Slime/slime_laugh_f1.ogg
-  - type: EmitSoundOnActivate
-    sound:
-      path: /Audio/_Floof/Voice/Slime/s_pop.ogg
-      params:
-        volume: 1
-  - type: MeleeWeapon
-    soundHit:
+    sound: &slimeLaugh
       path: /Audio/_Floof/Voice/Slime/slime_laugh_f1.ogg
       params:
         variation: 0.05
-        volume: 4
+        volume: 2
+  - type: EmitSoundOnActivate
+    sound: *slimeLaugh
+  - type: MeleeWeapon
+    soundHit: *slimeLaugh
   - type: EmitSoundOnCollide
-    sound:
-      path: /Audio/_Floof/Voice/Slime/slime_laugh_f1.ogg
+    sound: *slimeLaugh
 
 - type: entity
   parent: PlushieHuman
